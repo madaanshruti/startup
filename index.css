@@ -1,0 +1,679 @@
+/*------- index star-------- */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.group {
+    display: flex;
+    justify-content: end;
+    font-size: large;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: large;
+}
+
+.bg-img {
+    background-image: url(assests/images/background/laptop.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bold {
+    position: absolute;
+    bottom: 400px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 50px;
+    left: 40px;
+    font-family: sans-serif;
+}
+
+.light {
+    position: absolute;
+    color: white;
+    bottom: 305px;
+    letter-spacing: 2px;
+    font-size: larger;
+    left: 40px;
+    font-family: sans-serif;
+}
+
+.btn {
+    position: absolute;
+    bottom: 200px;
+    border: none;
+    padding: 20px;
+    left: 40px;
+    letter-spacing: 2px;
+    background-color: rgb(164, 164, 164);
+    font-size: larger;
+}
+
+.btn:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.icons1 {
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+    font-size: larger;
+    color: rgb(194, 190, 190);
+}
+
+@media screen and (max-width:768px) {
+    .bold {
+        display: none;
+    }
+
+    .light {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .group {
+        display: block;
+    }
+
+    .icons1 {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+}
+
+/* -------------------index end---------------------- */
+
+/* -----------------about start------------------ */
+.about {
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.re {
+    width: 25%;
+    padding: 20px;
+}
+
+.pa {
+    width: 25%;
+    padding: 20px;
+}
+
+.de {
+    width: 25%;
+    padding: 20px;
+}
+
+.su {
+    width: 25%;
+    padding: 20px;
+}
+
+.tv {
+    font-size: 50px;
+    color: black;
+}
+
+.heart {
+    font-size: 50px;
+}
+
+.diam {
+    font-size: 50px;
+}
+
+.sett {
+    font-size: 50px;
+}
+
+.main-card {
+    background-color: rgb(218, 217, 217);
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+}
+
+.left .cont {
+    margin-top: 100px;
+}
+
+.btn1 {
+    border: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: rgb(180, 176, 176);
+    color: black;
+}
+
+.right {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.right img {
+    width: 100%;
+}
+
+#about-footer {
+    position: relative;
+    top: 500px;
+}
+
+@media screen and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .re {
+        width: 100%;
+    }
+
+    .de {
+        width: 100%;
+    }
+
+    .su {
+        width: 100%;
+    }
+
+    .pa {
+        width: 100%;
+    }
+
+    .main-card {
+        display: block;
+        width: 100%;
+    }
+
+    .right {
+        display: block;
+    }
+
+    .left {
+        display: block;
+    }
+
+    .main-card {
+        display: none;
+    }
+
+    #about-footer{
+        top:0;
+    }
+
+}
+
+/* ----------------------about end-------------------- */
+/* ------------------team start--------------------------- */
+
+.team {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main-card1 {
+    display: flex;
+    /* width: 100%; */
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.start {
+    text-align: start;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+}
+
+.card1 {
+    width: 300px;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 3px 3px rgb(234, 234, 234);
+}
+
+.btn2 {
+    border: none;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+}
+
+.btn2:hover {
+    background-color: rgb(149, 148, 148);
+}
+
+.span {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: large;
+}
+
+@media screen and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main-card1 {
+        display: block;
+    }
+
+    .card1 {
+        width: 100%;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team {
+        width: 100%;
+
+    }
+
+    .span {
+        display: block;
+
+    }
+
+    .span div {
+        width: 100%;
+
+    }
+
+}
+
+/* -----------------------team end---------------------- */
+/* ---------------work start------------------------ */
+.work {
+    text-align: center;
+
+}
+
+.main-images {
+    margin: 20px;
+    text-align: center;
+}
+
+.main-images1 {
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.one {
+    margin: 7px;
+}
+
+@media screen and(max-width:768px) {
+
+    /* .work {
+        display: block;
+    } */
+    .main-images {
+        display: block;
+    }
+
+    .main-images1 {
+        display: block;
+    }
+
+    /* .one{
+        display: block;
+    } */
+}
+
+/* <!--work end---> */
+/* -----pricing------ */
+.pricing {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(189, 187, 187);
+}
+
+.left {
+    left: 49%;
+    padding: 100px;
+    float: left;
+}
+
+.right {
+    width: 49%;
+    right: 2px;
+    float: right;
+    height: 300px;
+    padding: 80px;
+}
+
+.table {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(82, 77, 77);
+    text-align: center;
+}
+
+.h6 {
+    font-size: 50px;
+    color: white;
+}
+
+.p6 {
+    font-size: 30px;
+    color: white;
+}
+
+.item1 {
+    /* height: 500px; */
+    /* width: 300px; */
+    margin-top: 30px;
+    /* margin-left: 50px; */
+    /* float: left; */
+}
+
+.IT {
+    height: 500px;
+    width: 400px;
+
+}
+
+.B1 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+/* .item2{
+    height: 1000px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+} */
+.IT1 {
+    height: 550px;
+    width: 400px;
+}
+
+.B2 {
+    background-color: rgb(186, 23, 23);
+    color: white;
+    font-size: 30px;
+}
+
+.bt {
+    border-bottom: 1px solid rgb(203, 199, 199);
+
+}
+
+.bt1 {
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+
+.item3 {
+    /* height: 500px; */
+    /* width: 300px; */
+    margin-top: 30px;
+    /* margin-right: 10px; */
+    /* float: left; */
+    /* margin-bottom: 10px; */
+}
+
+.item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.IT2 {
+    height: 500px;
+    width: 400px;
+}
+
+.B3 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.bt3 {
+    border-bottom: 1px solid rgb(218, 217, 217);
+
+}
+
+.bt2 {
+    background-color: rgb(212, 208, 208);
+}
+
+.button5 {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.button5:hover {
+    background-color: gray;
+}
+
+.precn {
+    background-color: rgb(222, 214, 214);
+    width: 80%;
+    height: 20px;
+    text-align: center;
+}
+
+.teage {
+    background-color: rgb(79, 76, 76);
+    width: 90%;
+    color: white;
+    height: 20px;
+}
+
+.precn1 {
+    background-color: rgb(222, 214, 214);
+    width: 80%;
+    height: 20px;
+    text-align: center;
+}
+
+.teage1 {
+    background-color: rgb(79, 76, 76);
+    width: 85%;
+    height: 20px;
+    color: white;
+}
+
+.precn2 {
+    background-color: rgb(222, 214, 214);
+    width: 80%;
+    height: 20px;
+    text-align: center;
+}
+
+.teage2 {
+    background-color: rgb(79, 76, 76);
+    width: 75%;
+    height: 20px;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+
+    .pricing {
+        display: block;
+    }
+
+    .item {
+        display: block;
+        width: 100%;
+    }
+
+    .item1 {
+        display: block;
+        width: 100%;
+    }
+
+    .item2 {
+        display: block;
+        width: 100%;
+    }
+
+    .left {
+        display: block;
+    }
+
+    .right {
+        display: block;
+    }
+
+    .h6 {
+        display: block;
+        width: 100%;
+        font-size: 30px;
+    }
+
+}
+
+/* ----pricing end----- */
+/* ---------------contact------------------------ */
+.contact {
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.span2 {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.form1 {
+    width: 99%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.form {
+    margin: 20px;
+    padding: 2px;
+}
+
+.btn3 {
+    border: none;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin: 5px;
+}
+
+.btn3:hover {
+    background-color: rgb(176, 176, 176);
+    color: black;
+}
+
+.main-contact {
+    background-color: rgb(191, 191, 191);
+    height: 1600px;
+
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+.map img {
+    width: 100%;
+}
+
+.span1 {
+    color: white;
+    font-size: larger;
+}
+
+.footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+
+}
+
+.btn4 {
+    padding: 15px;
+    margin: 40px;
+    border: none;
+    letter-spacing: 1px;
+
+}
+
+.btn4:hover {
+    background-color: rgb(170, 166, 166);
+}
+
+@media screen and (max-width:768px) {
+    .main-contact {
+        height: 950px;
+    }
+
+}
+
+/* ----------------contact end---------------- */
